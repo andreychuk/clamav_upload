@@ -1,0 +1,21 @@
+{
+  "host": "localhost",
+  "port": 3035,
+  "public": "../public/",
+  "db": {
+    "driver": "sqlite",
+    "db_storage": "local/db.sqlt"
+  },
+  "local": {
+    "files_path": "local/files",
+    "files_baseurl": "LOCAL_FILES_BASEURL",
+    "files_temp" : "local/temp"
+  },
+  "JWTSecret": "JWT_SECRET",
+  "JWTDisable": "JWT_DISABLE",
+  "clamav": {
+    "host": "CLAMAV_HOST",
+    "port": "CLAMAV_PORT"
+  },
+  "uploadMimes": "image/jpeg,image/png,application/pdf"
+}
